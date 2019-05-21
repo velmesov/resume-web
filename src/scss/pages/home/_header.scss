@@ -1,0 +1,20 @@
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(30, 140, 140);
+    box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+}
+
+.logo {
+    line-height: 60px;
+    font-size: 2em;
+
+    & > .logo__icon {
+        font-weight: bold;
+
+        &:after {
+            content: "</>";
+        }
+    }
+}

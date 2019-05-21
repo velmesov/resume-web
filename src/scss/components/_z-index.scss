@@ -1,0 +1,9 @@
+$z-index: (
+    overlay: 97,
+    preloader: 200,
+    notifications: 500
+);
+
+@function z-index($key) {
+    @return map-get($z-index, $key);
+}

@@ -1,0 +1,29 @@
+#notifications {
+    position: fixed;
+    z-index: z-index(notifications);
+    top: 50px;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+
+    & > .notice {
+        display: none;
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 10px;
+        text-align: center;
+        border-radius: 4px;
+
+        &.notice_success {
+            color: #009600;
+            background-color: #e6ffe6;
+            box-shadow: 0 0 10px 0 rgb(0, 150, 0);
+        }
+
+        &.notice_error {
+            color: #c80000;
+            background-color: #fff0f0;
+            box-shadow: 0 0 10px 0 rgb(150, 0, 0);
+        }
+    }
+}

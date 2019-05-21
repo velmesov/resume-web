@@ -1,0 +1,21 @@
+{
+    "name": "yuri/about-me",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yuri Velmesov",
+            "email": "yuri.velmesov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "scripts": {
+        "server": "php -S 0.0.0.0:8050 -t public"
+    }
+}

@@ -1,0 +1,17 @@
+@import "sidebar";
+@import "content";
+
+body {
+    overflow: hidden;
+}
+
+#main {
+    height: calc(100% - 150px);
+    margin: 90px 0 60px 0;
+    background: no-repeat center fixed url(../upload/images/background.jpg);
+
+    & > .container {
+        display: flex;
+        height: 100%;
+    }
+}
